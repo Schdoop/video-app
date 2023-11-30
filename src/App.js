@@ -3,10 +3,8 @@ import "slick-carousel/slick/slick-theme.css";
 import './App.css';
 
 import {useEffect, useState} from "react";
-import Slider from "react-slick";
 
-import {CACHE_REFRESH_DURATION, SLIDER_SETTINGS, TEST_CATEGORY_NAME} from './config';
-import CarouselItem from "./components/carouselItem";
+import {CACHE_REFRESH_DURATION, TEST_CATEGORY_NAME} from './config';
 import VideoPlayer from "./components/videoPlayer";
 import {getVideos, refreshCache} from "./utils/cache";
 import SearchBar from "./components/searchBar";

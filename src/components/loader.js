@@ -12,7 +12,7 @@ const Loader = ({loading}) => {
         loading &&
         <div className="overlay">
             <div className="overlay-content">
-                <img src='./spinner.svg' />
+                <img src='./spinner.svg'  alt='Loading'/>
             </div>
         </div>
     );
