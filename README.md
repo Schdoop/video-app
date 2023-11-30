@@ -1,6 +1,6 @@
 # Video App Testing Task for Kitcast
 
-A simple Vue/React application that allows users to browse and play video content from Vimeo.
+A simple React application that allows users to browse and play video content from Vimeo.
 
 ## Available Scripts
 
